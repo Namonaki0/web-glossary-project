@@ -7,10 +7,10 @@
     <div class="row">
         <table class="table table-striped">
             <?php foreach ($model as $item) : ?>
-                <tr>
-                    <td><?= $item->term ?></td>
-                    <td><?= $item->definition ?></td>
-                </tr>
+            <tr>
+                <td><a href="detail.php?term=<?= $item->term ?>"><?= $item->term ?></a></td>
+                <td><?= $item->definition ?></td>
+            </tr>
             <?php endforeach; ?>
         </table>
     </div>

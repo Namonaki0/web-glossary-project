@@ -1,7 +1,6 @@
 <?php
 require("app/app.php");
 
-$view_bag = [];
 $view_bag = [
     "title" => "Glossary List"
 ];
